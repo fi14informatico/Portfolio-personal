@@ -1,0 +1,75 @@
+/* Variable de colores */
+:root {
+    --color-primario: #108eef;
+    --color-primario-hover: #0d6bb3;
+    --color-secundario: #3ae9ef;
+    --color-secundario-hover: #20979e;
+    --color-accento: #071d6d;
+    --color-fondo: #f5f5f5;
+    --header-fondo: #e7e5e5ba;
+    --color-texto: #333333;
+}
+
+main {
+  padding: 4rem 3rem;
+}
+
+.proyectos .cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.proyectos .cards .card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.proyectos .cards .card h3 {
+  margin-bottom: 0.5rem;
+  width: 26rem;
+}
+
+.proyectos .cards .card p {
+  color: var(--color-texto);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  width: 26rem;
+}
+
+.proyectos .cards .card img {
+  width: 20rem;
+  max-height: 14rem;
+  border-radius: 0.5rem;
+}
+
+.proyectos .cards .card .btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.proyectos .cards .card .btns a.live-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--color-primario);
+  transition: all 0.3s;
+}
+
+.proyectos .cards .card .btns a.code-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--color-secundario);
+  transition: all 0.3s;
+}
